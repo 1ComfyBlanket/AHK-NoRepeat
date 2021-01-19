@@ -1,6 +1,6 @@
 Prevents repeated keypresses when a key is held down.
 
-A feature that is surprisingly missing from AHK. While this can be accomplished with an 'if' that checked against a global variable, this gets messy
+A feature that is surprisingly missing from AHK. While this can be accomplished with an 'if' that checks against a global variable for a specific hotkey, this gets messy
 fast when you have a large amount of hotkeys. More accurately this halts execution beyond usage of the function.
 
 Usage:
