@@ -7,17 +7,11 @@ Usage:
 Add NoRepeat(n) to any part of your script where you want a repeated keypress to exit. N = Number of modifiers the hotkey has
 
 
-Example:
-
-*a::
-
-Send, {b}
-
-NoRepeat(1)      ; Anything beyond this line will not execute on a repeated keypress
-
-Send, {f}
-
-Return
-
+Example:  
+*a::  
+Send, {b}  
+NoRepeat(1)      ; Anything beyond this line will not execute on a repeated keypress  
+Send, {f}  
+Return  
 
 *~a Up::NoRepeat(2)
